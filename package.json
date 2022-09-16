@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "yarn tailwindcss -i ./utils/raw.css -o ./public/styles/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "license": "MIT"
+}
