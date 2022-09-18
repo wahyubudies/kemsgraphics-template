@@ -551,21 +551,454 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-\[80px\] {
+  top: 80px;
+}
+
+.right-14 {
+  right: 3.5rem;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.bottom-\[120px\] {
+  bottom: 120px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.bottom-\[100px\] {
+  bottom: 100px;
+}
+
+.left-\[45\%\] {
+  left: 45%;
+}
+
+.top-\[160px\] {
+  top: 160px;
+}
+
+.right-\[30\%\] {
+  right: 30%;
+}
+
+.right-\[25\%\] {
+  right: 25%;
+}
+
+.-left-\[40px\] {
+  left: -40px;
+}
+
+.top-\[120px\] {
+  top: 120px;
+}
+
+.top-\[140px\] {
+  top: 140px;
+}
+
+.left-\[20\%\] {
+  left: 20%;
+}
+
+.top-\[250px\] {
+  top: 250px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-\[70\%\] {
+  top: 70%;
+}
+
+.left-\[30\%\] {
+  left: 30%;
+}
+
+.bottom-\[40px\] {
+  bottom: 40px;
+}
+
+.-bottom-\[20\%\] {
+  bottom: -20%;
+}
+
+.left-\[35\%\] {
+  left: 35%;
+}
+
+.-bottom-\[100px\] {
+  bottom: -100px;
+}
+
+.left-\[90px\] {
+  left: 90px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-\[37px\] {
+  margin-top: 37px;
+}
+
+.ml-14 {
+  margin-left: 3.5rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-\[170px\] {
+  margin-top: 170px;
+}
+
+.mb-\[95px\] {
+  margin-bottom: 95px;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[430px\] {
+  height: 430px;
+}
+
+.h-\[1000px\] {
+  height: 1000px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-max {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.max-w-\[1420px\] {
+  max-width: 1420px;
+}
+
+.max-w-\[1400px\] {
+  max-width: 1400px;
+}
+
+.max-w-\[480px\] {
+  max-width: 480px;
+}
+
+.max-w-\[1500px\] {
+  max-width: 1500px;
+}
+
+.max-w-\[766px\] {
+  max-width: 766px;
+}
+
+.max-w-\[650px\] {
+  max-width: 650px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.pl-\[52px\] {
+  padding-left: 52px;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pt-\[200px\] {
+  padding-top: 200px;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.\!text-\[300px\] {
+  font-size: 300px !important;
+}
+
+.\!text-3xl {
+  font-size: 1.875rem !important;
+  line-height: 2.25rem !important;
+}
+
+.text-\[100px\] {
+  font-size: 100px;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
+.font-black {
+  font-weight: 900;
 }
 
-.underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+.italic {
+  font-style: italic;
+}
+
+.text-white-10 {
+  --tw-text-opacity: 1;
+  color: rgb(228 228 229 / var(--tw-text-opacity));
+}
+
+.text-slate-200 {
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+*{
+  transition: all .5s ease-in-out;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+  font-family: nimbus-sans, sans-serif ;
+  font-weight: 400 ;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+.img-icon-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .6s ease-out;
+}
+
+.img-icon-hover:hover {
+  opacity: 1;
+}
+
+.heading-banner{
+  font-weight: 900;
+}
+
+.heading-banner:hover{
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.brut{
+  font-weight: 800;
+  font-style: italic;
+}
+
+.second-font{
+  font-family: 'Ofelia Text', sans-serif !important ;
+  font-weight: 400 ;
+}
+
+.about{
+  background-color: white;
+  -webkit-clip-path: polygon(52% 0, 100% 5%, 100% 100%, 0% 100%, 0 48%, 0 6%);
+          clip-path: polygon(52% 0, 100% 5%, 100% 100%, 0% 100%, 0 48%, 0 6%);
+}
+
+.about p{
+  font-family: 'Ofelia Text', sans-serif !important ;
+  font-size: 18px;
+  text-align: justify;
+}
+
+@media (min-width: 1536px) {
+  .about{
+    background-color: white;
+    -webkit-clip-path: polygon(52% 0, 100% 6%, 100% 100%, 0% 100%, 0 48%, 0 7.5%);
+            clip-path: polygon(52% 0, 100% 6%, 100% 100%, 0% 100%, 0 48%, 0 7.5%);
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:-bottom-\[240px\] {
+    bottom: -240px;
+  }
+
+  .lg\:right-5 {
+    right: 1.25rem;
+  }
+
+  .lg\:ml-\[70px\] {
+    margin-left: 70px;
+  }
+
+  .lg\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
+  .lg\:ml-\[150px\] {
+    margin-left: 150px;
+  }
+
+  .lg\:w-\[680px\] {
+    width: 680px;
+  }
+
+  .lg\:text-\[115px\] {
+    font-size: 115px;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-\[50px\] {
+    font-size: 50px;
+  }
+
+  .lg\:text-\[90px\] {
+    font-size: 90px;
+  }
+
+  .lg\:text-\[70px\] {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:-bottom-\[250px\] {
+    bottom: -250px;
+  }
+
+  .\32xl\:right-0 {
+    right: 0px;
+  }
+
+  .\32xl\:ml-\[110px\] {
+    margin-left: 110px;
+  }
+
+  .\32xl\:ml-16 {
+    margin-left: 4rem;
+  }
+
+  .\32xl\:ml-\[210px\] {
+    margin-left: 210px;
+  }
+
+  .\32xl\:w-\[1010px\] {
+    width: 1010px;
+  }
+
+  .\32xl\:text-\[150px\] {
+    font-size: 150px;
+  }
+
+  .\32xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .\32xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .\32xl\:text-\[100px\] {
+    font-size: 100px;
+  }
 }
