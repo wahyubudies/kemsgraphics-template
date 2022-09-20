@@ -7,6 +7,9 @@
     <!-- Font -->
     <link rel="stylesheet" href="https://use.typekit.net/qnn01rc.css" />
 
+    <!-- Splidejs -->
+    <link rel="stylesheet" href="../public/styles/splide.min.css" />
+
     <!-- CSS -->
     <link href="../public/styles/style.css" rel="stylesheet" />
   </head>
@@ -117,12 +120,7 @@
 
     <!-- Header -->
     <section class="mt-[30px] relative">
-      <img
-        src="./../public/img/label-section.svg"
-        class="absolute z-10 2xl:-bottom-[250px] lg:-bottom-[240px] left-0"
-        alt=""
-      />
-      <div class="max-w-[1420px] lg:ml-[150px] 2xl:ml-[210px]">
+      <div class="container mx-auto px-5">
         <h1
           class="text-white-10 heading-banner lg:text-[115px] 2xl:text-[150px]"
         >
@@ -175,12 +173,17 @@
           </a>
         </div>
       </div>
+      <img
+        src="./../public/img/label-section.svg"
+        class="absolute z-10 2xl:-bottom-[250px] lg:-bottom-[240px] left-0"
+        alt=""
+      />
     </section>
 
     <!-- Who we are -->
-    <section class="h-[1000px] about mt-[170px]">
+    <section class="pb-[260px] about mt-[170px]">
       <div
-        class="pt-[200px] max-w-[1500px] mx-auto flex justify-between relative"
+        class="container pt-[200px] px-5 mx-auto flex justify-between relative"
       >
         <p
           class="absolute text-slate-200 !text-[300px] font-black italic -left-[40px] top-[120px]"
@@ -208,7 +211,7 @@
         <p class="text-slate-200 !text-3xl absolute -bottom-[100px] right-0">
           Who we are?
         </p>
-        <div class="max-w-[766px] relative">
+        <div class="w-1/2 relative">
           <h1
             class="text-black 2xl:text-[100px] lg:text-[70px] font-black italic"
           >
@@ -220,7 +223,7 @@
             alt=""
           />
         </div>
-        <div class="max-w-[650px] pr-5">
+        <div class="w-1/2">
           <img
             src="./../public/img/ornAbout1.svg"
             class="mx-auto mb-[95px]"
@@ -247,18 +250,88 @@
       </div>
     </section>
 
-    <!-- flowbite js -->
-    <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+    <!-- Service -->
+    <section class="mt-28 relative">
+      <img
+        src="./../public/img/label-section2.svg"
+        class="absolute -top-[170px] 2xl:-top-[190px] left-0"
+        alt=""
+      />
+      <div class="container mx-auto pt-20 flex justify-between">
+        <div class="relative">
+          <p
+            class="!text-[300px] font-black italic text-[#111111] absolute -top-[120px] -left-[50px] -z-10"
+          >
+            2
+          </p>
+          <h1
+            class="text-white-10 2xl:text-[100px] lg:text-[70px] font-black italic"
+          >
+            What we do
+          </h1>
+        </div>
+        <img src="./../public/img/icon-service.svg" alt="" />
+      </div>
 
-    <!-- Jquery -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+      <!-- Slider Container -->
+      <div class="flex mt-24">
+        <!-- Slider 1 -->
+        <div id="service-pertama" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="https://picsum.photos/640" alt="" />
+              </li>
+              <li class="splide__slide">
+                <img src="https://picsum.photos/640" alt="" />
+              </li>
+              <li class="splide__slide">
+                <img src="https://picsum.photos/640" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Slider 2 -->
+        <div id="service-kedua" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="https://picsum.photos/640" alt="" />
+              </li>
+              <li class="splide__slide">
+                <img src="https://picsum.photos/640" alt="" />
+              </li>
+              <li class="splide__slide">
+                <img src="https://picsum.photos/640" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Slider 3 -->
+        <div id="service-ketiga" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="https://picsum.photos/640" alt="" />
+              </li>
+              <li class="splide__slide">
+                <img src="https://picsum.photos/640" alt="" />
+              </li>
+              <li class="splide__slide">
+                <img src="https://picsum.photos/640" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SplideJS -->
+    <script src="../public/js/splide.min.js"></script>
 
     <!-- Script -->
-    <script src="./../public/js/script.js"></script>
+    <script src="../public/js/script.js"></script>
   </body>
 </html>
