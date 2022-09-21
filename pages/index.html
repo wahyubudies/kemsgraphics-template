@@ -15,23 +15,23 @@
   </head>
 
   <body>
-    <nav class="bg-transparent mt-[37px] border-gray-200 py-5 rounded">
-      <div class="flex items-center pl-[52px]">
-        <span class="cursor-pointer">
-          <div class="img-wrapper">
-            <img
-              src="./../public/img/menu-toggle.svg"
-              class="img-icon"
-              alt=""
-            />
-            <img
-              src="./../public/img/hover-menu-toggle.svg"
-              class="img-icon-hover"
-              alt=""
-            />
-          </div>
-        </span>
-        <a href="#" class="flex items-center lg:ml-[70px] 2xl:ml-[110px]">
+    <nav class="bg-transparent mt-[37px] border-gray-200 py-5 rounded relative">
+      <span
+        class="cursor-pointer absolute top-1/2 -translate-y-1/2 2xl:left-12 lg:left-7"
+      >
+        <div class="img-wrapper">
+          <img src="./../public/img/menu-toggle.svg" class="img-icon" alt="" />
+          <img
+            src="./../public/img/hover-menu-toggle.svg"
+            class="img-icon-hover"
+            alt=""
+          />
+        </div>
+      </span>
+      <div
+        class="container flex items-center justify-center mx-auto max-w-[1500px]"
+      >
+        <a href="#" class="flex items-center">
           <div class="img-wrapper">
             <img src="./../public/img/logo.svg" class="img-icon" alt="" />
             <img
@@ -41,7 +41,9 @@
             />
           </div>
         </a>
-        <div class="lg:w-[680px] 2xl:w-[1010px] flex items-center ml-14">
+        <div
+          class="lg:w-[350px] xl:w-[630px] 2xl:w-[1010px] flex items-center ml-14"
+        >
           <hr class="w-full border" />
         </div>
 
@@ -120,9 +122,9 @@
 
     <!-- Header -->
     <section class="mt-[30px] relative">
-      <div class="container mx-auto px-5">
+      <div class="2xl:container mx-auto px-5 lg:max-w-[1120px]">
         <h1
-          class="text-white-10 heading-banner lg:text-[115px] 2xl:text-[150px]"
+          class="text-white-10 heading-banner lg:text-[100px] xl:text-[115px] 2xl:text-[150px]"
         >
           KEMSGRAPHICS
         </h1>
@@ -175,7 +177,7 @@
       </div>
       <img
         src="./../public/img/label-section.svg"
-        class="absolute z-10 2xl:-bottom-[250px] lg:-bottom-[240px] left-0"
+        class="absolute z-10 2xl:-bottom-[250px] lg:-bottom-[225px] xl:-bottom-[235px] left-0"
         alt=""
       />
     </section>
@@ -183,7 +185,7 @@
     <!-- Who we are -->
     <section class="pb-[260px] about mt-[170px]">
       <div
-        class="container pt-[200px] px-5 mx-auto flex justify-between relative"
+        class="2xl:container lg:max-w-[1120px] pt-[200px] px-5 mx-auto flex justify-between relative"
       >
         <p
           class="absolute text-slate-200 !text-[300px] font-black italic -left-[40px] top-[120px]"
@@ -257,7 +259,9 @@
         class="absolute -top-[170px] 2xl:-top-[190px] left-0"
         alt=""
       />
-      <div class="container mx-auto pt-20 flex justify-between">
+      <div
+        class="2xl:container lg:max-w-[1120px] mx-auto pt-20 flex justify-between"
+      >
         <div class="relative">
           <p
             class="!text-[300px] font-black italic text-[#111111] absolute -top-[120px] -left-[50px] -z-10"
@@ -324,6 +328,136 @@
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Item Service -->
+    <section class="item-service mt-[140px] relative overflow-hidden">
+      <img
+        src="../public/img/orn-circle1.svg"
+        class="absolute -bottom-[60%] -right-[100px] -z-10"
+        alt=""
+      />
+      <div class="2xl:container lg:max-w-[1120px] px-5 mx-auto">
+        <!-- Streetwear -->
+        <div class="w-full relative">
+          <div class="w-[55%] flex items-start">
+            <img src="../public/img/icon-heading-service.svg" alt="" />
+            <div class="ml-5">
+              <h1 class="lg:text-5xl 2xl:text-6xl text-white-10 font-black">
+                Streetwear Design
+              </h1>
+              <p class="text-lg text-white-10 mt-5 text-justify">
+                Creating graphics need for various apparel of your choices, by
+                your request, tailored to any kind that suits your brand image
+                and ideas. We also create designs that is unique, especially
+                designed for each individuals who want to express them self
+                through their fassion.
+              </p>
+              <a
+                href="#"
+                class="px-6 py-2 text-white-10 border border-white-10 rounded-full mt-12 inline-block"
+                >See More</a
+              >
+            </div>
+          </div>
+          <div class="w-[40%">
+            <img
+              src="../public/img/orn-star1.svg"
+              class="absolute top-0 right-0"
+              alt=""
+            />
+            <img
+              src="../public/img/orn-star2.svg"
+              class="absolute bottom-0 right-[20%]"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- Branding -->
+        <div class="w-full mt-20 relative">
+          <div class="w-[40%]">
+            <img
+              src="../public/img/orn-star2.svg"
+              class="absolute left-0 bottom-0"
+              alt=""
+            />
+            <img
+              src="../public/img/orn-brand.svg"
+              class="absolute top-[30px] left-[20%]"
+              alt=""
+            />
+          </div>
+          <div class="w-[55%] flex items-start ml-auto">
+            <img src="../public/img/icon-heading-service.svg" alt="" />
+            <div class="ml-5">
+              <h1 class="lg:text-5xl 2xl:text-6xl text-white-10 font-black">
+                Branding Design
+              </h1>
+              <p class="text-lg text-white-10 mt-5 text-justify">
+                Creating visual identity such as logo or a complete visual
+                identity thats include the identity colors and typography, and
+                other designs components that help you or yourbrand to express
+                its ideas and values, making it standing out more from your
+                competitors, urther elevating your brands existence and help you
+                or your brand reach the target.
+              </p>
+              <a
+                href="#"
+                class="px-6 py-2 text-white-10 border border-white-10 rounded-full mt-12 inline-block"
+                >See More</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Promotion -->
+        <div class="w-full relative mt-20">
+          <div class="w-[55%] flex items-start">
+            <img src="../public/img/icon-heading-service.svg" alt="" />
+            <div class="ml-5">
+              <h1 class="lg:text-5xl 2xl:text-6xl text-white-10 font-black">
+                Promotional Media Design
+              </h1>
+              <p class="text-lg text-white-10 mt-5 text-justify">
+                Creating various designs promotional media needs for you or your
+                brand, both digital and printed such as poster, flyer, brochure,
+                banner, and social media post to hel you or your brand having
+                design that fulfil its promotional, publications, or marketing
+                purpose, delivering relevants informations that you want to
+                envoy, or simply gathering the attention of your target market.
+              </p>
+              <a
+                href="#"
+                class="px-6 py-2 text-white-10 border border-white-10 rounded-full mt-12 inline-block"
+                >See More</a
+              >
+            </div>
+          </div>
+          <div class="w-[40%">
+            <img
+              src="../public/img/orn-star2.svg"
+              class="absolute top-[60px] right-[30%]"
+              alt=""
+            />
+            <img
+              src="../public/img/orn-promo.svg"
+              class="absolute bottom-0 right-0"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- ALso on -->
+        <div class="mt-20 relative">
+          <p class="text-[55px] text-white-10 font-black">We're also on</p>
+          <img
+            src="../public/img/orn-star1.svg"
+            class="absolute -top-[20px] right-[40%]"
+            alt=""
+          />
         </div>
       </div>
     </section>

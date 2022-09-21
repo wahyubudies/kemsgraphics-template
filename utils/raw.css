@@ -67,3 +67,11 @@ body{
 
   }
 }
+
+.item-service h1:hover{
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  transition: all .4s ease-in-out;
+
+}
