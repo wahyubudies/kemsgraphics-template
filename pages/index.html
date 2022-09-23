@@ -15,7 +15,9 @@
   </head>
 
   <body>
-    <nav class="bg-transparent mt-[37px] border-gray-200 py-5 rounded relative">
+    <nav
+      class="bg-transparent mt-[37px] border-gray-200 py-5 rounded relative px-5"
+    >
       <span
         class="cursor-pointer absolute top-1/2 -translate-y-1/2 2xl:left-12 lg:left-7"
       >
@@ -42,12 +44,12 @@
           </div>
         </a>
         <div
-          class="lg:w-[350px] xl:w-[630px] 2xl:w-[1010px] flex items-center ml-14"
+          class="w-[100px] lg:w-[350px] xl:w-[630px] 2xl:w-[1010px] flex items-center ml-14"
         >
           <hr class="w-full border" />
         </div>
 
-        <div class="flex items-center lg:ml-10 2xl:ml-16">
+        <div class="flex items-center ml-10 2xl:ml-16">
           <a href="#">
             <div class="img-wrapper">
               <img src="./../public/img/Icon-IG.svg" class="img-icon" alt="" />
@@ -124,13 +126,13 @@
     <section class="mt-[30px] relative">
       <div class="2xl:container mx-auto px-5 lg:max-w-[1120px]">
         <h1
-          class="text-white-10 heading-banner lg:text-[100px] xl:text-[115px] 2xl:text-[150px]"
+          class="text-white-10 heading-banner text-[70px] lg:text-[100px] xl:text-[115px] 2xl:text-[150px]"
         >
           KEMSGRAPHICS
         </h1>
         <div class="max-w-[1400px] mt-5 relative h-[430px]">
           <p class="text-white-10 lg:text-2xl 2xl:text-3xl">
-            Virtual graphic design studio, <br />
+            Virtual graphic design studio, <br class="hidden lg:block" />
             Inspired by <span class="brut">brutalism</span> style of design.
           </p>
           <p
@@ -147,7 +149,7 @@
             (GMT+7)
           </p>
           <p
-            class="second-font lg:text-xl 2xl:text-2xl font-bold italic border-b-2 max-w-[480px] pb-1 text-white-10 absolute left-0 bottom-[120px]"
+            class="second-font lg:text-xl 2xl:text-2xl font-bold italic border-b-2 max-w-[480px] pb-1 text-white-10 absolute left-0 lg:bottom-[120px] bottom-[190px]"
           >
             HIT US UP AND LET THE MAGIC HAPPEN!
           </p>
@@ -177,18 +179,18 @@
       </div>
       <img
         src="./../public/img/label-section.svg"
-        class="absolute z-10 2xl:-bottom-[250px] lg:-bottom-[225px] xl:-bottom-[235px] left-0"
+        class="absolute z-10 2xl:-bottom-[250px] -bottom-[100px] lg:-bottom-[225px] xl:-bottom-[235px] left-0"
         alt=""
       />
     </section>
 
     <!-- Who we are -->
-    <section class="pb-[260px] about mt-[170px]">
+    <section class="lg:pb-[260px] pb-[240px] about lg:mt-[170px] mt-[60px]">
       <div
         class="2xl:container lg:max-w-[1120px] pt-[200px] px-5 mx-auto flex justify-between relative"
       >
         <p
-          class="absolute text-slate-200 !text-[300px] font-black italic -left-[40px] top-[120px]"
+          class="absolute text-slate-200 !text-[300px] font-black italic -left-[40px] lg:top-[120px] top-[80px]"
         >
           1
         </p>
@@ -198,10 +200,14 @@
         <p class="text-slate-200 !text-3xl absolute top-[140px] right-[25%]">
           Who we are?
         </p>
-        <p class="text-slate-200 !text-3xl absolute top-[250px] right-0">
+        <p
+          class="text-slate-200 !text-3xl absolute lg:top-[250px] top-[300px] right-0"
+        >
           Who we are?
         </p>
-        <p class="text-slate-200 !text-3xl absolute top-[70%] left-[30%]">
+        <p
+          class="text-slate-200 !text-3xl absolute top-[70%] lg:left-[30%] left-[20%]"
+        >
           Who we are?
         </p>
         <p class="text-slate-200 !text-3xl absolute left-0 bottom-[40px]">
@@ -215,7 +221,7 @@
         </p>
         <div class="w-1/2 relative">
           <h1
-            class="text-black 2xl:text-[100px] lg:text-[70px] font-black italic"
+            class="text-black 2xl:text-[100px] lg:text-[70px] text-[50px] font-black italic"
           >
             Who we are
           </h1>
@@ -253,10 +259,10 @@
     </section>
 
     <!-- Service -->
-    <section class="mt-28 relative">
+    <section class="service mt-28 relative">
       <img
         src="./../public/img/label-section2.svg"
-        class="absolute -top-[170px] 2xl:-top-[190px] left-0"
+        class="absolute -top-[150px] lg:-top-[170px] 2xl:-top-[190px] left-0"
         alt=""
       />
       <div
@@ -269,7 +275,7 @@
             2
           </p>
           <h1
-            class="text-white-10 2xl:text-[100px] lg:text-[70px] font-black italic"
+            class="text-white-10 2xl:text-[100px] lg:text-[70px] text-[60px] font-black italic"
           >
             What we do
           </h1>
@@ -336,7 +342,7 @@
     <section class="item-service mt-[140px] relative overflow-hidden">
       <img
         src="../public/img/orn-circle1.svg"
-        class="absolute -bottom-[60%] -right-[100px] -z-10"
+        class="absolute lg:-bottom-[60%] -right-[100px] -z-10"
         alt=""
       />
       <div class="2xl:container lg:max-w-[1120px] px-5 mx-auto">
@@ -345,7 +351,9 @@
           <div class="w-[55%] flex items-start">
             <img src="../public/img/icon-heading-service.svg" alt="" />
             <div class="ml-5">
-              <h1 class="lg:text-5xl 2xl:text-6xl text-white-10 font-black">
+              <h1
+                class="text-[30px] lg:text-5xl 2xl:text-6xl text-white-10 font-black"
+              >
                 Streetwear Design
               </h1>
               <p class="text-lg text-white-10 mt-5 text-justify">
@@ -355,11 +363,7 @@
                 designed for each individuals who want to express them self
                 through their fassion.
               </p>
-              <a
-                href="#"
-                class="px-6 py-2 text-white-10 border border-white-10 rounded-full mt-12 inline-block"
-                >See More</a
-              >
+              <a href="#" class="mybtn mt-12 inline-block">See More</a>
             </div>
           </div>
           <div class="w-[40%">
@@ -393,7 +397,9 @@
           <div class="w-[55%] flex items-start ml-auto">
             <img src="../public/img/icon-heading-service.svg" alt="" />
             <div class="ml-5">
-              <h1 class="lg:text-5xl 2xl:text-6xl text-white-10 font-black">
+              <h1
+                class="text-[30px] lg:text-5xl 2xl:text-6xl text-white-10 font-black"
+              >
                 Branding Design
               </h1>
               <p class="text-lg text-white-10 mt-5 text-justify">
@@ -404,11 +410,7 @@
                 competitors, urther elevating your brands existence and help you
                 or your brand reach the target.
               </p>
-              <a
-                href="#"
-                class="px-6 py-2 text-white-10 border border-white-10 rounded-full mt-12 inline-block"
-                >See More</a
-              >
+              <a href="#" class="mybtn mt-12 inline-block">See More</a>
             </div>
           </div>
         </div>
@@ -418,7 +420,9 @@
           <div class="w-[55%] flex items-start">
             <img src="../public/img/icon-heading-service.svg" alt="" />
             <div class="ml-5">
-              <h1 class="lg:text-5xl 2xl:text-6xl text-white-10 font-black">
+              <h1
+                class="text-[30px] lg:text-5xl 2xl:text-6xl text-white-10 font-black"
+              >
                 Promotional Media Design
               </h1>
               <p class="text-lg text-white-10 mt-5 text-justify">
@@ -429,11 +433,7 @@
                 purpose, delivering relevants informations that you want to
                 envoy, or simply gathering the attention of your target market.
               </p>
-              <a
-                href="#"
-                class="px-6 py-2 text-white-10 border border-white-10 rounded-full mt-12 inline-block"
-                >See More</a
-              >
+              <a href="#" class="mybtn mt-12 inline-block">See More</a>
             </div>
           </div>
           <div class="w-[40%">
