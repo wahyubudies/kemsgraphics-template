@@ -23,6 +23,36 @@ document.addEventListener( 'DOMContentLoaded', function() {
     drag: 'free',
   }).mount();
 
+  new Splide("#fivver", {
+    perPage: 1,
+    type    : 'loop',
+    focus: "center",
+    width: 1200,
+    height: 700,
+    drag: 'free',
+    breakpoints: {
+      1500 : {
+        width: 900,
+        height: 500,
+      }
+    }
+  }).mount();
+
+  new Splide("#yungcultr", {
+    perPage: 1,
+    type    : 'loop',
+    focus: "center",
+    width: 1200,
+    height: 700,
+    drag: 'free',
+    breakpoints: {
+      1500 : {
+        width: 900,
+        height: 500,
+      }
+    }
+  }).mount();
+
  
   
 });
