@@ -8,6 +8,7 @@ body{
     background-color: rgb(0, 0, 0);
     font-family: nimbus-sans, sans-serif ;
     font-weight: 400 ;
+    overflow-x: hidden;
 }
 
 .img-wrapper {
@@ -48,13 +49,13 @@ body{
     font-weight: 400 ;
 }
 
-.about{
+.about, .about2{
   background-color: white;
   clip-path: polygon(54% 0, 100% 3%, 100% 98%, 40% 100%, 0 98%, 0 3%);
 
 }
 
-.about p{
+.about p, .about2 p{
   font-family: 'Ofelia Text', sans-serif !important ;
   font-size: 18px;
   text-align: justify;
@@ -68,10 +69,15 @@ body{
     clip-path: polygon(54% 0, 100% 3%, 100% 95%, 40% 100%, 0 98%, 0 6%);
 
   }
+
+  .about2{
+    background-color: white;
+    clip-path: polygon(54% 0, 100% 2%, 100% 96%, 43% 100%, 0 100%, 0 3%);
+  }
 }
 
 @media (min-width: theme('screens.2xl')) {
-  .about{
+  .about, .about2{
     background-color: white;
     clip-path: polygon(54% 0, 100% 3%, 100% 94%, 40% 100%, 0 98%, 0 6%);
 
