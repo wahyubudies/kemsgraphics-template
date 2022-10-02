@@ -149,7 +149,7 @@
             </p>
             <img
               src="../public/img/orn-sliderservice.svg"
-              class="absolute -right-[40px] bottom-0 z-10"
+              class="absolute -right-[40px] bottom-0 z-10 hidden xl:block"
               alt=""
             />
           </div>
@@ -175,35 +175,39 @@
     </section>
 
     <!-- Service Table -->
-    <section class="bg-white-10 relative mt-[150px] pb-[100px]">
+    <section class="bg-white-10 relative mt-[100px] lg:mt-[150px] pb-[100px]">
       <img
-        src="../public/img/label-section.svg"
-        class="absolute -top-[60px] left-0"
+        src="../public/img/label-serviceSection.svg"
+        class="absolute -top-[35px] lg:-top-[60px] 2xl:-top-[75px] left-0"
         alt=""
       />
       <img
-        src="../public/img/label-section.svg"
-        class="absolute -bottom-[60px] left-0"
+        src="../public/img/label-serviceSection.svg"
+        class="absolute -bottom-[35px] lg:-bottom-[60px] 2xl:-bottom-[80px] left-0"
         alt=""
       />
 
       <div
-        class="2xl:container mx-auto px-5 lg:max-w-[1120px] relative pt-[125px]"
+        class="2xl:container mx-auto px-5 lg:max-w-[1120px] relative pt-[100px] lg:pt-[125px]"
       >
         <div class="flex justify-between items-center">
           <div class="flex items-center">
-            <p class="text-[42px]">Service</p>
-            <hr class="w-[386px] border-black mx-5" />
-            <p class="text-[42px]">Streetwear Design</p>
+            <p class="text-[35px] lg:text-[42px]">Service</p>
+            <hr class="w-[200px] lg:w-[386px] border-black mx-5" />
+            <p class="text-[35px] lg:text-[42px]">Streetwear Design</p>
           </div>
-          <img src="../public/img/orn-sweet2.svg" alt="" />
+          <img
+            src="../public/img/orn-sweet2.svg"
+            class="hidden xl:block"
+            alt=""
+          />
         </div>
 
         <!-- Desc -->
         <div class="mt-[40px] relative">
           <div class="flex items-center absolute top-0 left-0">
             <img src="../public/img/icon-emailStreetservice.svg" alt="" />
-            <p class="text-[42px] ml-2">Contact Us!</p>
+            <p class="text-[35px] lg:text-[42px] ml-2">Contact Us!</p>
           </div>
           <img
             src="../public/img/orn-streetserv4.svg"
@@ -212,16 +216,16 @@
           />
           <img
             src="../public/img/orn-streetserv3.svg"
-            class="absolute -left-[100px] 2xl:left-0 top-[100px]"
+            class="absolute -left-[100px] 2xl:left-0 top-[100px] hidden xl:block"
             alt=""
           />
           <img
             src="../public/img/orn-streetserv3.svg"
-            class="absolute -right-[120px] 2xl:right-0 bottom-[100px] rotate-90"
+            class="absolute -right-[120px] 2xl:right-0 bottom-[100px] rotate-90 hidden xl:block"
             alt=""
           />
           <div class="max-w-[1080px] mx-auto">
-            <p class="text-[42px] font-bold text-right">Base</p>
+            <p class="text-[35px] lg:text-[42px] font-bold text-right">Base</p>
 
             <!-- Table Base -->
             <div class="overflow-x-auto relative mt-7">
@@ -298,7 +302,7 @@
                   <li>.JPED (preview as mockup)</li>
                 </ul>
               </div>
-              <p class="text-[42px] font-bold">Additional</p>
+              <p class="text-[35px] lg:text-[42px] font-bold">Additional</p>
             </div>
 
             <!-- Table Base -->
@@ -370,29 +374,107 @@
     </section>
 
     <!-- COntact Us -->
-    <section>
+    <section class="relative">
       <div
-        class="2xl:container mx-auto px-5 lg:max-w-[1120px] relative pt-[125px]"
+        class="2xl:container mx-auto px-5 lg:max-w-[1120px] relative pt-[125px] pb-[180px] flex justify-between"
       >
-        <div class="con-left max-w-[700px]">
+        <div class="con-left w-[300px] lg:w-[600px] 2xl:w-[700px]">
           <div class="flex items-center">
             <img src="../public/img/orn-contactus.svg" alt="" />
             <p class="text-[42px] text-white-10 ml-2">Contact Us</p>
           </div>
           <div class="mt-[50px]">
-            <div>
-              <div>
-                <input
-                  type="text"
-                  placeholder="Full Name"
-                  id="small-input"
-                  class="block p-2 w-full bg-black text-gray-900 border border-gray-300 sm:text-xs"
-                />
+            <form action="#">
+              <div class="lg:flex">
+                <div class="lg:w-1/2">
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    id="small-input"
+                    class="block p-2 w-full text-white-10 bg-black border border-gray-300 sm:text-lg placeholder:text-slate-600"
+                  />
+                </div>
+                <div class="lg:w-1/2 lg:ml-3 mt-3 lg:mt-0">
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    id="small-input"
+                    class="block p-2 w-full bg-black text-white-10 border border-gray-300 sm:text-lg placeholder:text-slate-600"
+                  />
+                </div>
               </div>
-            </div>
+              <div class="mt-3 lg:flex">
+                <div class="lg:w-1/2">
+                  <input
+                    type="text"
+                    placeholder="Company/Brand"
+                    id="small-input"
+                    class="block p-2 w-full bg-black text-white-10 border border-gray-300 sm:text-lg placeholder:text-slate-600"
+                  />
+                </div>
+                <div class="lg:w-1/2 lg:ml-3 mt-3 lg:mt-0">
+                  <select
+                    id="countries"
+                    class="w-full bg-black border text-slate-600 border-gray-300 sm:text-lg placeholder:text-slate-600 p-2.5"
+                  >
+                    <option selected class="text-slate-600">
+                      Choose a country
+                    </option>
+                    <option value="US">United States</option>
+                    <option value="CA">Canada</option>
+                    <option value="FR">France</option>
+                    <option value="DE">Germany</option>
+                  </select>
+                </div>
+              </div>
+              <textarea
+                id="message"
+                rows="4"
+                class="mt-3 block p-2 w-full bg-black text-white-10 border border-gray-300 sm:text-lg placeholder:text-slate-600"
+                placeholder="Your message..."
+              ></textarea>
+              <button type="submit " class="mybtn mt-12 inline-block">
+                Submit
+              </button>
+            </form>
           </div>
         </div>
+
+        <div class="con-right max-w-[300px] text-white-10">
+          <div>
+            <p class="text-base xl:text-lg">Socials</p>
+            <ul>
+              <li><a href="#" class="text-lg xl:text-2xl">Instagram</a></li>
+              <li><a href="#" class="text-lg xl:text-2xl">Facebook</a></li>
+              <li><a href="#" class="text-lg xl:text-2xl">Behance</a></li>
+            </ul>
+          </div>
+          <div class="mt-16">
+            <p class="text-base xl:text-lg">Address</p>
+            <p class="text-lg xl:text-2xl">
+              Jl. Candi IIIB 96A, Sukun Malang-East Java Indonesia
+            </p>
+          </div>
+          <div class="mt-16">
+            <p class="text-base xl:text-lg">Say Hi!</p>
+            <a href="#" class="text-lg xl:text-2xl">hello@kemsgraphics.com</a>
+          </div>
+          <div class="mt-16">
+            <p class="text-base xl:text-lg">We’re also here!</p>
+            <ul>
+              <li><a href="#" class="text-lg xl:text-2xl">Fivver</a></li>
+              <li><a href="#" class="text-lg xl:text-2xl">Redbubble</a></li>
+            </ul>
+          </div>
+          <p class="text-xl text-slate-800 mt-10">kemsgraphics ©2022</p>
+        </div>
       </div>
+
+      <img
+        src="../public/img/label-serviceSection.svg"
+        class="absolute bottom-0 left-0"
+        alt=""
+      />
     </section>
 
     <!-- flowbite js -->
