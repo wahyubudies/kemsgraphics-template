@@ -16,7 +16,7 @@
 
   <body>
     <nav
-      class="bg-transparent mt-[37px] border-gray-200 py-5 rounded relative px-5"
+      class="bg-transparent mt-[37px] border-gray-200 py-5 rounded relative px-5 z-30"
     >
       <span
         class="cursor-pointer absolute top-1/2 -translate-y-1/2 2xl:left-12 lg:left-7"
@@ -137,11 +137,14 @@
       />
 
       <div class="2xl:container mx-auto px-5 lg:max-w-[1120px] relative">
-        <h1
-          class="heading-service text-[30px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] text-right"
-        >
-          Streetwear Design
-        </h1>
+        <div class="text-right">
+          <h1
+            class="heading-service text-[30px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] text-right relative z-50 inline-block"
+          >
+            Streetwear Design
+          </h1>
+        </div>
+
         <div class="flex justify-between flex-wrap xl:flex-nowrap px-14">
           <div class="relative">
             <p class="text-white-10 text-[45px] pr-4 leading-[45px]">
@@ -149,13 +152,19 @@
             </p>
             <img
               src="../public/img/orn-sliderservice.svg"
-              class="absolute -right-[40px] bottom-0 z-10 hidden xl:block"
+              class="absolute -right-[40px] -bottom-[50px] 2xl:bottom-0 z-30 hidden xl:block"
               alt=""
             />
           </div>
 
           <!-- Slider -->
-          <div id="streetwear" class="splide">
+          <div id="streetwear" class="splide relative">
+            <div
+              class="orn-square w-[200px] h-[200px] 2xl:w-[220px] 2xl:h-[314px] bg-[#00000040] absolute bottom-0 -left-[100px] z-10"
+            ></div>
+            <div
+              class="orn-square2 w-[320px] h-[200px] bg-[#00000040] absolute -top-[140px] -right-[70px] z-10"
+            ></div>
             <div class="splide__track">
               <ul class="splide__list">
                 <li class="splide__slide">
@@ -221,10 +230,10 @@
           />
           <img
             src="../public/img/orn-streetserv3.svg"
-            class="absolute -right-[120px] 2xl:right-0 bottom-[100px] rotate-90 hidden xl:block"
+            class="absolute -right-[170px] 2xl:right-0 bottom-[100px] rotate-90 hidden xl:block"
             alt=""
           />
-          <div class="max-w-[1080px] mx-auto">
+          <div class="max-w-[900px] mx-auto">
             <p class="text-[35px] lg:text-[42px] font-bold text-right">Base</p>
 
             <!-- Table Base -->
@@ -288,12 +297,37 @@
                     <td class="py-4 px-6 border-x border-slate-300">$99</td>
                     <td class="py-4 px-6 border-x border-slate-300">$2999</td>
                   </tr>
+
+                  <tr class="bg-black text-white-10">
+                    <th scope="row" class="py-4 px-6 font-medium text-right">
+                      Exclusive License
+                    </th>
+                    <td class="py-4 px-6 border-x border-slate-300">$99</td>
+                    <td class="py-4 px-6 border-x border-slate-300">$99</td>
+                    <td class="py-4 px-6 border-x border-slate-300">$99</td>
+                    <td class="py-4 px-6 border-x border-slate-300">$2999</td>
+                  </tr>
+
+                  <tr class="bg-white">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 text-right"
+                    >
+                      Magic Mouse 2
+                    </th>
+                    <td class="py-4 px-6 border-x border-slate-300">Black</td>
+                    <td class="py-4 px-6 border-x border-slate-300">
+                      Accessories
+                    </td>
+                    <td class="py-4 px-6 border-x border-slate-300">$99</td>
+                    <td class="py-4 px-6 border-x border-slate-300">$2999</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
 
             <!-- Table Additinal -->
-            <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center mt-10">
               <div class="text-[14px]">
                 <p>Deliverables:</p>
                 <ul>
