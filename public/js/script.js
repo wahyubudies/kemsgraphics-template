@@ -1,4 +1,10 @@
+const menuSideOpen = document.querySelector('#menuSideOpen')
+const menuSideContent = document.querySelector('#menuSide')
 
+menuSideOpen.addEventListener('click', () => {
+  menuSideContent.classList.toggle('active')
+  document.querySelector('body').classList.toggle('overflow-hidden')
+})
 
 document.addEventListener( 'DOMContentLoaded', function() {
   new Splide("#service-pertama", {

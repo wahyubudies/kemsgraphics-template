@@ -16,12 +16,12 @@
 
   <body>
     <nav
-      class="bg-transparent mt-[37px] border-gray-200 py-5 rounded relative px-5"
+      class="bg-transparent mt-5 md:mt-[37px] border-gray-200 md:py-5 rounded relative px-5"
     >
       <span
         class="cursor-pointer absolute top-1/2 -translate-y-1/2 2xl:left-12 lg:left-7"
       >
-        <div class="img-wrapper">
+        <div class="img-wrapper" id="menuSideOpen">
           <img src="./../public/img/menu-toggle.svg" class="img-icon" alt="" />
           <img
             src="./../public/img/hover-menu-toggle.svg"
@@ -31,7 +31,7 @@
         </div>
       </span>
       <div
-        class="container flex items-center justify-center mx-auto max-w-[1500px]"
+        class="container flex items-center justify-end md:justify-center mx-auto max-w-[1500px]"
       >
         <a href="#" class="flex items-center">
           <div class="img-wrapper">
@@ -44,12 +44,12 @@
           </div>
         </a>
         <div
-          class="w-[100px] lg:w-[350px] xl:w-[630px] 2xl:w-[1010px] flex items-center ml-14"
+          class="w-[100px] lg:w-[350px] xl:w-[630px] 2xl:w-[1010px] hidden md:flex items-center ml-14"
         >
           <hr class="w-full border" />
         </div>
 
-        <div class="flex items-center ml-10 2xl:ml-16">
+        <div class="hidden md:flex items-center ml-10 2xl:ml-16">
           <a href="#">
             <div class="img-wrapper">
               <img src="./../public/img/Icon-IG.svg" class="img-icon" alt="" />
@@ -121,6 +121,89 @@
         </div>
       </div>
     </nav>
+
+    <!-- Menu Side -->
+    <section
+      class="fixed bg-black z-30 w-full h-full -left-full top-[100px] md:top-[150px] 2xl:top-[200px] menuSide"
+      id="menuSide"
+    >
+      <div
+        class="2xl:container mx-auto px-5 lg:max-w-[1120px] relative pt-[25px] md:pb-[180px] md:flex justify-between"
+      >
+        <img
+          src="../public/img/orn-menuSide.svg"
+          class="absolute top-0 right-0 -z-10 hidden md:block"
+          alt=""
+        />
+        <img
+          src="../public/img/orn-menuSide2.svg"
+          class="absolute bottom-[130px] left-1/2 -translate-x-1/2 hidden md:block"
+          alt=""
+        />
+
+        <div class="con-left w-[300px] lg:w-[600px] 2xl:w-[700px]">
+          <ul>
+            <li>
+              <a
+                href="#"
+                class="text-[30px] md:text-[60px] 2xl:text-[100px] text-white-10"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[30px] md:text-[60px] 2xl:text-[100px] text-white-10"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[30px] md:text-[60px] 2xl:text-[100px] text-white-10"
+                >YUNGCULTR</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[30px] md:text-[60px] 2xl:text-[100px] text-white-10"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="con-right max-w-[300px] text-white-10 mt-12 md:mt-0">
+          <div>
+            <p class="text-sm 2xl:text-lg">Socials</p>
+            <ul>
+              <li><a href="#" class="text-lg 2xl:text-2xl">Instagram</a></li>
+              <li><a href="#" class="text-lg 2xl:text-2xl">Facebook</a></li>
+              <li><a href="#" class="text-lg 2xl:text-2xl">Behance</a></li>
+            </ul>
+          </div>
+          <div class="mt-8 2xl:mt-16">
+            <p class="text-sm 2xl:text-lg">Address</p>
+            <p class="text-lg 2xl:text-2xl">
+              Jl. Candi IIIB 96A, Sukun Malang-East Java Indonesia
+            </p>
+          </div>
+          <div class="mt-8 2xl:mt-16">
+            <p class="text-sm 2xl:text-lg">Say Hi!</p>
+            <a href="#" class="text-lg 2xl:text-2xl">hello@kemsgraphics.com</a>
+          </div>
+          <div class="mt-8 2xl:mt-16">
+            <p class="text-sm 2xl:text-lg">We’re also here!</p>
+            <ul>
+              <li><a href="#" class="text-lg 2xl:text-2xl">Fivver</a></li>
+              <li><a href="#" class="text-lg 2xl:text-2xl">Redbubble</a></li>
+            </ul>
+          </div>
+          <p class="text-xl text-slate-800 mt-10">kemsgraphics ©2022</p>
+        </div>
+      </div>
+    </section>
 
     <!-- Header -->
     <section class="mt-[30px] relative">
