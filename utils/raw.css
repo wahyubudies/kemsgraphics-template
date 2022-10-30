@@ -58,11 +58,25 @@ body{
     font-weight: 400 ;
 }
 
-.about, .about2{
-  background-color: white;
-  clip-path: polygon(54% 0, 100% 3%, 100% 98%, 40% 100%, 0 98%, 0 3%);
 
+  .about, .about2{
+    background-color: white;
+  }
+
+@screen md{
+  .about{
+    background-color: white;
+    clip-path: polygon(54% 0, 100% 3%, 100% 98%, 40% 100%, 0 98%, 0 3%);
+  }
+
+  .about2{
+    background-color: white;
+    clip-path: polygon(54% 0, 100% 3%, 100% 98%, 40% 100%, 0 98%, 0 3%);
+  }
 }
+
+
+
 
 .about p, .about2 p{
   font-family: 'Ofelia Text', sans-serif !important ;
