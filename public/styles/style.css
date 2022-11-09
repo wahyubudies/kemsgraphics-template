@@ -881,6 +881,10 @@ video {
   bottom: -10px;
 }
 
+.top-\[0px\] {
+  top: 0px;
+}
+
 .z-30 {
   z-index: 30;
 }
