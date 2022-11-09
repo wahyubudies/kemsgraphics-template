@@ -34,13 +34,13 @@ document.addEventListener( 'DOMContentLoaded', function() {
     type    : 'loop',
     focus: "center",
     width: 1200,
-    height: 700,
+    height: 500,
     drag: 'free',
     breakpoints: {
       1500 : {
         width: 900,
         height: 500,
-      }
+      },
     }
   }).mount();
 
@@ -49,7 +49,7 @@ document.addEventListener( 'DOMContentLoaded', function() {
     type    : 'loop',
     focus: "center",
     width: 1200,
-    height: 700,
+    height: 500,
     drag: 'free',
     breakpoints: {
       1500 : {

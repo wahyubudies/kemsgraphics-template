@@ -174,7 +174,9 @@
           </ul>
         </div>
 
-        <div class="con-right max-w-[300px] text-white-10 mt-12 md:mt-0">
+        <div
+          class="con-right max-w-[300px] text-white-10 mt-12 md:mt-0 flex flex-wrap justify-between"
+        >
           <div>
             <p class="text-sm 2xl:text-lg">Socials</p>
             <ul>
@@ -183,17 +185,17 @@
               <li><a href="#" class="text-lg 2xl:text-2xl">Behance</a></li>
             </ul>
           </div>
-          <div class="mt-8 2xl:mt-16">
+          <div class="2xl:mt-16 w-[200px] ml-2">
             <p class="text-sm 2xl:text-lg">Address</p>
             <p class="text-lg 2xl:text-2xl">
               Jl. Candi IIIB 96A, Sukun Malang-East Java Indonesia
             </p>
           </div>
-          <div class="mt-8 2xl:mt-16">
+          <div class="2xl:mt-16 w-[200px] mt-5">
             <p class="text-sm 2xl:text-lg">Say Hi!</p>
             <a href="#" class="text-lg 2xl:text-2xl">hello@kemsgraphics.com</a>
           </div>
-          <div class="mt-8 2xl:mt-16">
+          <div class="mt-8 2xl:mt-16 w-[200px]">
             <p class="text-sm 2xl:text-lg">We’re also here!</p>
             <ul>
               <li><a href="#" class="text-lg 2xl:text-2xl">Fivver</a></li>
@@ -263,49 +265,62 @@
           </a>
         </div>
       </div>
+
       <img
         src="./../public/img/label-section.svg"
-        class="absolute z-10 2xl:-bottom-[250px] -bottom-[70px] md:-bottom-[100px] lg:-bottom-[225px] xl:-bottom-[235px] left-0 scale-[2] md:scale-100"
+        class="absolute z-10 2xl:-bottom-[250px] -bottom-[70px] md:-bottom-[100px] lg:-bottom-[225px] xl:-bottom-[235px] left-0"
         alt=""
       />
     </section>
 
     <!-- Who we are -->
-    <section class="lg:pb-[260px] pb-[240px] about lg:mt-[170px] mt-[60px]">
+    <section
+      class="lg:pb-[260px] md:pb-[240px] pb-[100px] about lg:mt-[170px] mt-[60px]"
+    >
       <div
-        class="2xl:container lg:max-w-[1120px] pt-[200px] px-5 mx-auto flex justify-between relative"
+        class="2xl:container lg:max-w-[1120px] pt-[100px] md:pt-[200px] px-5 mx-auto md:flex justify-between relative"
       >
         <p
-          class="absolute text-slate-200 !text-[300px] font-black italic -left-[40px] lg:top-[120px] top-[80px]"
+          class="absolute text-slate-200 !text-[200px] md:!text-[300px] font-black italic left-0 md:-left-[40px] lg:top-[120px] top-[80px]"
         >
           1
         </p>
-        <p class="text-slate-200 !text-3xl absolute top-[140px] left-[20%]">
-          Who we are?
-        </p>
-        <p class="text-slate-200 !text-3xl absolute top-[140px] right-[25%]">
-          Who we are?
-        </p>
         <p
-          class="text-slate-200 !text-3xl absolute lg:top-[250px] top-[300px] right-0"
+          class="text-slate-200 !text-3xl absolute top-[140px] left-[20%] hidden md:block"
         >
           Who we are?
         </p>
         <p
-          class="text-slate-200 !text-3xl absolute top-[70%] lg:left-[30%] left-[20%]"
+          class="text-slate-200 !text-3xl absolute top-[140px] right-[25%] hidden md:block"
         >
           Who we are?
         </p>
-        <p class="text-slate-200 !text-3xl absolute left-0 bottom-[40px]">
+        <p
+          class="text-slate-200 !text-3xl absolute lg:top-[250px] top-[300px] right-0 hidden md:block"
+        >
           Who we are?
         </p>
-        <p class="text-slate-200 !text-3xl absolute -bottom-[20%] left-[35%]">
+        <p
+          class="text-slate-200 !text-3xl absolute top-[70%] lg:left-[30%] left-[20%] hidden md:block"
+        >
           Who we are?
         </p>
-        <p class="text-slate-200 !text-3xl absolute -bottom-[100px] right-0">
+        <p
+          class="text-slate-200 !text-3xl absolute left-0 bottom-[40px] hidden md:block"
+        >
           Who we are?
         </p>
-        <div class="w-1/2 relative">
+        <p
+          class="text-slate-200 !text-3xl absolute -bottom-[20%] left-[35%] hidden md:block"
+        >
+          Who we are?
+        </p>
+        <p
+          class="text-slate-200 !text-3xl absolute -bottom-[100px] right-0 hidden md:block"
+        >
+          Who we are?
+        </p>
+        <div class="md:w-1/2 w-full relative">
           <h1
             class="text-black 2xl:text-[100px] lg:text-[70px] text-[50px] font-black italic"
           >
@@ -313,14 +328,14 @@
           </h1>
           <img
             src="./../public/img/ornAbout2.svg"
-            class="mx-auto absolute -bottom-[100px] left-[90px]"
+            class="mx-auto absolute -bottom-[100px] md:left-[90px] hidden md:block"
             alt=""
           />
         </div>
-        <div class="w-1/2">
+        <div class="md:w-1/2 w-full mt-24">
           <img
             src="./../public/img/ornAbout1.svg"
-            class="mx-auto mb-[95px]"
+            class="mx-auto mb-[95px] hidden md:block"
             alt=""
           />
           <p>
@@ -348,29 +363,33 @@
     <section class="service mt-28 relative">
       <img
         src="./../public/img/label-section2.svg"
-        class="absolute -top-[150px] lg:-top-[170px] 2xl:-top-[190px] left-0"
+        class="absolute -top-[130px] md:-top-[150px] lg:-top-[170px] 2xl:-top-[190px] left-0"
         alt=""
       />
       <div
-        class="2xl:container lg:max-w-[1120px] mx-auto pt-20 flex justify-between"
+        class="2xl:container lg:max-w-[1120px] mx-auto pt-3 md:pt-20 flex justify-between"
       >
-        <div class="relative">
+        <div class="relative px-5 md:px-0">
           <p
-            class="!text-[300px] font-black italic text-[#111111] absolute -top-[120px] -left-[50px] -z-10"
+            class="!text-[200px] md:!text-[300px] font-black italic text-[#111111] absolute -top-[90px] md:-top-[120px] -left-[20px] md:-left-[50px] -z-10"
           >
             2
           </p>
           <h1
-            class="text-white-10 2xl:text-[100px] lg:text-[70px] text-[60px] font-black italic"
+            class="text-white-10 2xl:text-[100px] lg:text-[70px] md:text-[60px] text-[50px] font-black italic"
           >
             What we do
           </h1>
         </div>
-        <img src="./../public/img/icon-service.svg" alt="" />
+        <img
+          src="./../public/img/icon-service.svg"
+          class="hidden md:block"
+          alt=""
+        />
       </div>
 
       <!-- Slider Container -->
-      <div class="flex mt-24">
+      <div class="md:flex mt-24">
         <!-- Slider 1 -->
         <div id="service-pertama" class="splide">
           <div class="splide__track">
@@ -425,7 +444,9 @@
     </section>
 
     <!-- Item Service -->
-    <section class="item-service mt-[140px] relative pb-[250px]">
+    <section
+      class="item-service mt-[100px] md:mt-[140px] relative md:pb-[250px] pb-[100px]"
+    >
       <img
         src="../public/img/orn-circle1.svg"
         class="absolute lg:top-0 right-0 xl:-right-[100px] w-[1000px] h-[1000px] xl:w-[1500px] xl:h-[1500px] -z-10"
@@ -439,16 +460,20 @@
 
       <img
         src="../public/img/label-section.svg"
-        class="absolute 2xl:-bottom-[180px] xl:-bottom-[150px] -bottom-[50px] left-0 z-10 -rotate-1"
+        class="absolute 2xl:-bottom-[180px] xl:-bottom-[150px] md:-bottom-[50px] -bottom-[10px] left-0 z-10 -rotate-1"
         alt=""
       />
 
       <div class="2xl:container lg:max-w-[1120px] px-5 mx-auto">
         <!-- Streetwear -->
         <div class="w-full relative">
-          <div class="w-[55%] flex items-start">
-            <img src="../public/img/icon-heading-service.svg" alt="" />
-            <div class="ml-5">
+          <div class="md:w-[55%] flex items-start">
+            <img
+              src="../public/img/icon-heading-service.svg"
+              class="hidden md:block"
+              alt=""
+            />
+            <div class="md:ml-5">
               <h1
                 class="text-[30px] lg:text-5xl 2xl:text-6xl text-white-10 font-black"
               >
@@ -467,12 +492,12 @@
           <div class="w-[40%">
             <img
               src="../public/img/orn-star1.svg"
-              class="absolute top-0 right-0"
+              class="absolute top-0 right-0 hidden md:block"
               alt=""
             />
             <img
               src="../public/img/orn-star2.svg"
-              class="absolute bottom-0 right-[20%]"
+              class="absolute bottom-0 right-[20%] hidden md:block"
               alt=""
             />
           </div>
@@ -480,7 +505,7 @@
 
         <!-- Branding -->
         <div class="w-full mt-20 relative">
-          <div class="w-[40%]">
+          <div class="md:w-[40%] hidden md:block">
             <img
               src="../public/img/orn-star2.svg"
               class="absolute left-0 bottom-0"
@@ -492,9 +517,13 @@
               alt=""
             />
           </div>
-          <div class="w-[55%] flex items-start ml-auto">
-            <img src="../public/img/icon-heading-service.svg" alt="" />
-            <div class="ml-5">
+          <div class="md:w-[55%] md:flex items-start ml-auto">
+            <img
+              src="../public/img/icon-heading-service.svg"
+              class="hidden md:block"
+              alt=""
+            />
+            <div class="md:ml-5">
               <h1
                 class="text-[30px] lg:text-5xl 2xl:text-6xl text-white-10 font-black"
               >
@@ -515,9 +544,13 @@
 
         <!-- Promotion -->
         <div class="w-full relative mt-20">
-          <div class="w-[55%] flex items-start">
-            <img src="../public/img/icon-heading-service.svg" alt="" />
-            <div class="ml-5">
+          <div class="md:w-[55%] md:flex items-start">
+            <img
+              src="../public/img/icon-heading-service.svg"
+              class="hidden md:block"
+              alt=""
+            />
+            <div class="md:ml-5">
               <h1
                 class="text-[30px] lg:text-5xl 2xl:text-6xl text-white-10 font-black"
               >
@@ -537,12 +570,12 @@
           <div class="w-[40%">
             <img
               src="../public/img/orn-star2.svg"
-              class="absolute top-[60px] right-[30%]"
+              class="absolute top-[60px] right-[30%] hidden md:block"
               alt=""
             />
             <img
               src="../public/img/orn-promo.svg"
-              class="absolute bottom-0 right-0"
+              class="absolute bottom-0 right-0 hidden md:block"
               alt=""
             />
           </div>
@@ -553,7 +586,7 @@
           <p class="text-[55px] text-white-10 font-black">We're also on</p>
           <img
             src="../public/img/orn-star1.svg"
-            class="absolute -top-[20px] lg:right-[40%] right-[30%]"
+            class="absolute -top-[20px] lg:right-[40%] right-[30%] hidden md:block"
             alt=""
           />
         </div>
@@ -572,7 +605,7 @@
             alt=""
           />
           <p
-            class="text-white-10 font-black 2xl:text-[100px] text-[80px] absolute bottom-[20px] xl:left-[28%] left-[7%] z-10"
+            class="text-white-10 font-black 2xl:text-[100px] text-[50px] md:text-[80px] absolute bottom-[50px] md:bottom-[20px] xl:left-[28%] left-[7%] z-10"
           >
             Fivver
           </p>
@@ -584,7 +617,7 @@
           />
 
           <!-- Slider Fivver -->
-          <div id="fivver" class="splide bg-slate-500 ml-auto">
+          <div id="fivver" class="splide ml-auto">
             <div class="splide__track">
               <ul class="splide__list">
                 <li class="splide__slide">
@@ -616,7 +649,7 @@
         <!-- Yungcultr -->
         <div class="mt-[150px]">
           <div class="2xl:container mx-auto lg:max-w-[1120px] px-5 xl:px-0">
-            <p class="text-white-10 font-black text-[60px]">
+            <p class="text-white-10 font-black text-[30px] md:text-[60px]">
               Checkout our merch
             </p>
           </div>
@@ -633,11 +666,11 @@
             />
             <img
               src="../public/img/orn-star2.svg"
-              class="absolute right-[15%] -bottom-[20%]"
+              class="absolute right-[15%] -bottom-[20%] hidden md:block"
               alt=""
             />
             <p
-              class="text-white-10 font-black 2xl:text-[100px] text-[80px] absolute bottom-[20px] xl:left-[28%] left-[7%] z-10"
+              class="text-white-10 font-black 2xl:text-[100px] text-[40px] md:text-[80px] absolute bottom-[60px] md:bottom-[20px] xl:left-[28%] left-[7%] z-10"
             >
               YUNGCULTR
             </p>
@@ -649,7 +682,7 @@
             />
 
             <!-- Slider Fivver -->
-            <div id="yungcultr" class="splide bg-slate-500 ml-auto">
+            <div id="yungcultr" class="splide ml-auto">
               <div class="splide__track">
                 <ul class="splide__list">
                   <li class="splide__slide">
@@ -685,7 +718,9 @@
     <section
       class="about2 xl:mt-[80px] relative lg:pb-[270px] pb-[170px] overflow-x-hidden"
     >
-      <div class="2xl:container lg:max-w-[1120px] pt-[200px] px-5 mx-auto">
+      <div
+        class="2xl:container lg:max-w-[1120px] md:pt-[200px] pt-[80px] px-5 mx-auto"
+      >
         <div class="relative">
           <h1
             class="text-black 2xl:text-[100px] lg:text-[70px] text-[50px] font-black italic"
@@ -708,7 +743,7 @@
             alt=""
           />
         </div>
-        <div class="mt-[180px] relative">
+        <div class="mt-[50px] md:mt-[180px] relative">
           <img
             src="../public/img/orn-moreabout2.svg"
             class="absolute 2xl:left-0 lg:-left-[300px] top-0 hidden lg:block"
@@ -800,51 +835,61 @@
     <section class="relative">
       <img
         src="../public/img/label-section2.svg"
-        class="absolute 2xl:-top-[100px] lg:-top-[60px] -top-[34px] left-0 lg:-rotate-2 -rotate-1"
+        class="absolute 2xl:-top-[100px] lg:-top-[60px] -top-[20px] md:-top-[34px] left-0 lg:-rotate-2 -rotate-1"
         alt=""
       />
 
-      <div class="2xl:container lg:max-w-[1120px] pt-[200px] px-5 mx-auto">
+      <div
+        class="2xl:container lg:max-w-[1120px] pt-[100px] md:pt-[200px] px-5 mx-auto"
+      >
         <div class="flex justify-between items-center">
           <h1
-            class="text-white-10 2xl:text-[100px] lg:text-[70px] text-[50px] font-black italic"
+            class="text-white-10 2xl:text-[100px] lg:text-[70px] md:text-[50px] text-[30px] font-black italic"
           >
             What they said...
           </h1>
-          <img src="../public/img/ornTestimoni.svg" alt="" />
+          <img
+            src="../public/img/ornTestimoni.svg"
+            class="hidden md:block"
+            alt=""
+          />
         </div>
         <img src="../public/img/testi.svg" class="max-w-full mt-10" alt="" />
         <div class="w-full mt-16 relative">
           <img
             src="../public/img/ornlets1.svg"
-            class="absolute left-0 top-1/2 -translate-y-1/2"
+            class="absolute left-0 top-1/2 -translate-y-1/2 hidden md:block"
             alt=""
           />
           <img
             src="../public/img/ornlets1.svg"
-            class="absolute bottom-0 right-0"
+            class="absolute bottom-0 right-0 hidden md:block"
             alt=""
           />
           <img
             src="../public/img/ornlets2.svg"
-            class="absolute top-0 right-0"
+            class="absolute top-0 right-0 hidden md:block"
             alt=""
           />
-          <div class="flex ml-[100px]">
+          <div class="md:flex md:ml-[100px]">
             <p
-              class="text-white-10 2xl:text-[100px] lg:text-[70px] text-[50px] font-black italic"
+              class="text-white-10 2xl:text-[100px] lg:text-[70px] text-[30px] md:text-[50px] font-black italic"
             >
               LETS TALK
             </p>
-            <img src="../public/img/ornLetstalk.svg" alt="" />
+            <img
+              src="../public/img/ornLetstalk.svg"
+              class="hidden md:block"
+              alt=""
+            />
           </div>
           <p
-            class="text-right text-white-10 2xl:text-[100px] lg:text-[70px] text-[50px] font-black italic"
+            class="md:text-right text-white-10 2xl:text-[100px] lg:text-[70px] text-[30px] md:text-[50px] font-black italic"
           >
             ABOUT THE NEXT
           </p>
           <p
-            class="text-center text-white-10 2xl:text-[100px] lg:text-[70px] text-[50px] font-black italic"
+            class="md:text-center text-white-10 2xl:text-[100px] lg:text-[70px] text-[30px] md:text-[50px] font-black italic"
           >
             BIG THING!!!
           </p>
@@ -854,7 +899,7 @@
           </p>
         </div>
         <p
-          class="text-6xl text-white-10 text-center mt-20 py-2 border-b-2 border-white-10 max-w-[700px] mx-auto"
+          class="text-[25px] md:text-6xl text-white-10 text-center mt-20 py-2 border-b-2 border-white-10 max-w-[700px] mx-auto"
         >
           hello@kemsgraphics.com
         </p>
@@ -864,35 +909,35 @@
     <!-- footer -->
     <footer>
       <div
-        class="2xl:container lg:max-w-[1120px] pt-[200px] px-5 mx-auto flex lg:justify-between pb-10 flex-wrap"
+        class="2xl:container lg:max-w-[1120px] pt-[100px] md:pt-[200px] px-5 mx-auto flex lg:justify-between pb-10 flex-wrap"
       >
         <div class="text-white-10 w-[260px]">
           <p class="text-lg">Address</p>
-          <p class="text-2xl">
+          <p class="text-xl md:text-2xl">
             Jl. Candi IIIB 96A, Sukun Malang-East Java Indonesia
           </p>
         </div>
-        <div class="text-white-10 lg:w-[140px] w-[180px]">
+        <div class="text-white-10 lg:w-[140px] w-[180px] mt-5 md:mt-0">
           <p class="text-lg">Socials</p>
           <ul>
-            <li><a href="#" class="text-2xl">Instagram</a></li>
-            <li><a href="#" class="text-2xl">Facebook</a></li>
-            <li><a href="#" class="text-2xl">Behance</a></li>
+            <li><a href="#" class="text-xl md:text-2xl">Instagram</a></li>
+            <li><a href="#" class="text-xl md:text-2xl">Facebook</a></li>
+            <li><a href="#" class="text-xl md:text-2xl">Behance</a></li>
           </ul>
         </div>
-        <div class="text-white-10 lg:w-[140px] w-[180px]">
+        <div class="text-white-10 lg:w-[140px] w-[180px] mt-5 md:mt-">
           <p class="text-lg">We're also here!</p>
           <ul>
-            <li><a href="#" class="text-2xl">Fivver</a></li>
-            <li><a href="#" class="text-2xl">Redbubble</a></li>
-            <li><a href="#" class="text-2xl">Behance</a></li>
+            <li><a href="#" class="text-xl md:text-2xl">Fivver</a></li>
+            <li><a href="#" class="text-xl md:text-2xl">Redbubble</a></li>
+            <li><a href="#" class="text-xl md:text-2xl">Behance</a></li>
           </ul>
         </div>
         <div class="text-white-10 lg:w-[140px] w-[180px] mt-7 lg:mt-0">
-          <a href="#" class="text-2xl">FAQ</a>
+          <a href="#" class="text-xl md:text-2xl">FAQ</a>
         </div>
         <div class="text-slate-800 w-[250px] mt-7 lg:mt-0">
-          <p class="text-2xl">kemsgraphics ©2022</p>
+          <p class="text-xl md:text-2xl">kemsgraphics ©2022</p>
         </div>
       </div>
     </footer>
