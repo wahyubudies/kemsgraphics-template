@@ -14,6 +14,9 @@ document.addEventListener( 'DOMContentLoaded', function() {
         1300:{
             width: 1000,
             height: 600,
+        },
+        768:{
+          height: 300,
         }
       }
     }).mount();
@@ -23,3 +26,11 @@ document.addEventListener( 'DOMContentLoaded', function() {
    
     
   });
+
+  const menuSideOpen = document.querySelector('#menuSideOpen')
+  const menuSideContent = document.querySelector('#menuSide')
+  
+  menuSideOpen.addEventListener('click', () => {
+    menuSideContent.classList.toggle('active')
+    document.querySelector('body').classList.toggle('overflow-hidden')
+  })

@@ -63,6 +63,10 @@ body{
     background-color: white;
   }
 
+#fivver .splide__pagination, #yungcultr .splide__pagination, #streetwear .splide__arrow, #streetwear .splide__pagination {
+  display: none;
+}
+
 @screen md{
   .about{
     background-color: white;
@@ -72,6 +76,10 @@ body{
   .about2{
     background-color: white;
     clip-path: polygon(54% 0, 100% 3%, 100% 98%, 40% 100%, 0 98%, 0 3%);
+  }
+
+  #fivver .splide__pagination, #yungcultr .splide__pagination, #streetwear .splide__arrow, #streetwear .splide__pagination {
+    display: block;
   }
 }
 
