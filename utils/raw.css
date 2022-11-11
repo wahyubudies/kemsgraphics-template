@@ -67,6 +67,11 @@ body{
   display: none;
 }
 
+#toggleSliderMenu{
+  width: 40px !important;
+  height: 40px !important;
+}
+
 @screen md{
   .about{
     background-color: white;
@@ -80,6 +85,11 @@ body{
 
   #fivver .splide__pagination, #yungcultr .splide__pagination, #streetwear .splide__arrow, #streetwear .splide__pagination {
     display: block;
+  }
+
+  #toggleSliderMenu{
+    width: 50px !important;
+    height: 50px !important;
   }
 }
 

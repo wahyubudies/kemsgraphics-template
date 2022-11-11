@@ -207,22 +207,27 @@
       </div>
     </section>
 
-    <!-- slider service -->
-    <section class="relative">
-      <!-- toggle move service -->
+    <!-- toggle move service -->
+    <div
+      class="bg-black md:bg-transparent py-2 md:py-0 px-3 md:px-0 sticky md:absolute top-0 md:top-1/2 md:-translate-y-1/2 flex justify-between w-full z-50 md:z-0 mt-6"
+    >
       <img
         src="../public/img/icon-slider-left.svg"
-        class="absolute left-[10px] top-0 md:top-1/2 md:-translate-y-1/2 cursor-pointer"
+        class="cursor-pointer"
+        id="toggleSliderMenu"
         alt=""
       />
       <img
         src="../public/img/icon-slider-right.svg"
-        class="absolute right-[10px] top-0 md:top-1/2 md:-translate-y-1/2 cursor-pointer"
+        class="md:absolute right-[10px] top-0 md:top-1/2 md:-translate-y-1/2 cursor-pointer"
+        id="toggleSliderMenu"
         alt=""
       />
-
+    </div>
+    <!-- slider service -->
+    <section class="relative mt-6">
       <div
-        class="2xl:container mx-auto px-5 lg:max-w-[1120px] relative pt-16 mt-6 md:mt-0"
+        class="2xl:container mx-auto px-5 lg:max-w-[1120px] relative pt-5 mt-0"
       >
         <div class="text-right">
           <h1
@@ -237,7 +242,7 @@
         >
           <div class="relative">
             <p
-              class="text-white-10 text-3xl md:text-[45px] pr-4 leading-[45px]"
+              class="text-white-10 text-3xl lg:text-[45px] pr-4 leading-[45px]"
             >
               Our Previous Work
             </p>
@@ -251,7 +256,7 @@
           <!-- Slider -->
           <div id="streetwear" class="splide relative">
             <div
-              class="orn-square w-[200px] h-[200px] 2xl:w-[220px] 2xl:h-[314px] bg-[#00000040] absolute bottom-0 -left-[100px] z-10"
+              class="orn-square w-[200px] h-[200px] 2xl:w-[220px] 2xl:h-[314px] bg-[#00000040] absolute bottom-0 -left-[100px] z-10 hidden md:block"
             ></div>
             <div
               class="orn-square2 w-[320px] h-[200px] bg-[#00000040] absolute -top-[140px] -right-[70px] z-10 hidden md:block"
