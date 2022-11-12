@@ -209,20 +209,25 @@
 
     <!-- toggle move service -->
     <div
-      class="bg-black md:bg-transparent py-2 md:py-0 px-3 md:px-0 sticky md:absolute top-0 md:top-1/2 md:-translate-y-1/2 flex justify-between w-full z-50 md:z-0 mt-6"
+      class="bg-black md:bg-transparent py-2 md:py-0 px-3 sticky top-0 md:top-1/2 md:-translate-y-1/2 flex justify-between w-full !z-50 mt-6"
     >
-      <img
-        src="../public/img/icon-slider-left.svg"
-        class="cursor-pointer"
-        id="toggleSliderMenu"
-        alt=""
-      />
-      <img
-        src="../public/img/icon-slider-right.svg"
-        class="md:absolute right-[10px] top-0 md:top-1/2 md:-translate-y-1/2 cursor-pointer"
-        id="toggleSliderMenu"
-        alt=""
-      />
+      <a href="#">
+        <img
+          src="../public/img/icon-slider-left.svg"
+          class="cursor-pointer bg-black p-1 rounded-md"
+          id="toggleSliderMenu"
+          alt=""
+        />
+      </a>
+
+      <a href="#">
+        <img
+          src="../public/img/icon-slider-right.svg"
+          class="md:absolute right-[10px] top-0 md:top-1/2 md:-translate-y-1/2 cursor-pointer bg-black p-1 rounded-md"
+          id="toggleSliderMenu"
+          alt=""
+        />
+      </a>
     </div>
     <!-- slider service -->
     <section class="relative mt-6">
