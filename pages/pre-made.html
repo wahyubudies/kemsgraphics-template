@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/qnn01rc.css" />
+
+    <!-- Splidejs -->
+    <link rel="stylesheet" href="../public/styles/splide.min.css" />
+
+    <!-- CSS -->
+    <link href="../public/styles/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav
+      class="bg-transparent mt-5 md:mt-[37px] border-gray-200 md:py-5 rounded relative px-5 z-30"
+    >
+      <span
+        class="cursor-pointer absolute top-1/2 -translate-y-1/2 2xl:left-12 lg:left-7"
+      >
+        <div class="img-wrapper" id="menuSideOpen">
+          <img src="./../public/img/menu-toggle.svg" class="img-icon" alt="" />
+          <img
+            src="./../public/img/hover-menu-toggle.svg"
+            class="img-icon-hover"
+            alt=""
+          />
+        </div>
+      </span>
+      <div
+        class="container flex items-center justify-end md:justify-center mx-auto max-w-[1500px]"
+      >
+        <a href="#" class="flex items-center">
+          <div class="img-wrapper">
+            <img src="./../public/img/logo.svg" class="img-icon" alt="" />
+            <img
+              src="./../public/img/hover-logo.svg"
+              class="img-icon-hover"
+              alt=""
+            />
+          </div>
+        </a>
+        <div
+          class="w-[100px] lg:w-[350px] xl:w-[630px] 2xl:w-[1010px] hidden md:flex items-center ml-14"
+        >
+          <hr class="w-full border" />
+        </div>
+
+        <div class="hidden md:flex items-center ml-10 2xl:ml-16">
+          <a href="#">
+            <div class="img-wrapper">
+              <img src="./../public/img/Icon-IG.svg" class="img-icon" alt="" />
+              <img
+                src="./../public/img/hover-Icon-IG.svg"
+                class="img-icon-hover"
+                alt=""
+              />
+            </div>
+          </a>
+          <a href="#" class="ml-3">
+            <div class="img-wrapper">
+              <img src="./../public/img/Icon-FB.svg" class="img-icon" alt="" />
+              <img
+                src="./../public/img/hover-Icon-FB.svg"
+                class="img-icon-hover"
+                alt=""
+              />
+            </div>
+          </a>
+          <a href="#" class="ml-3">
+            <div class="img-wrapper">
+              <img src="./../public/img/Icon-Be.svg" class="img-icon" alt="" />
+              <img
+                src="./../public/img/hover-Icon-Be.svg"
+                class="img-icon-hover"
+                alt=""
+              />
+            </div>
+          </a>
+          <a href="#" class="ml-3">
+            <div class="img-wrapper">
+              <img
+                src="./../public/img/Icon-Email.svg"
+                class="img-icon"
+                alt=""
+              />
+              <img
+                src="./../public/img/hover-Icon-Email.svg"
+                class="img-icon-hover"
+                alt=""
+              />
+            </div>
+          </a>
+          <a href="#" class="ml-3">
+            <div class="img-wrapper">
+              <img
+                src="./../public/img/Icon-Fiverr.svg"
+                class="img-icon"
+                alt=""
+              />
+              <img
+                src="./../public/img/hover-Icon-Fiverr.svg"
+                class="img-icon-hover"
+                alt=""
+              />
+            </div>
+          </a>
+          <a href="#" class="ml-3">
+            <div class="img-wrapper">
+              <img src="./../public/img/Icon-RB.svg" class="img-icon" alt="" />
+              <img
+                src="./../public/img/hover-Icon-RB.svg"
+                class="img-icon-hover"
+                alt=""
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Menu Side -->
+    <section
+      class="fixed bg-black z-40 w-full h-full -left-full top-[100px] md:top-[150px] menuSide"
+      id="menuSide"
+    >
+      <div
+        class="2xl:container mx-auto px-5 lg:max-w-[1120px] relative md:pb-[180px] md:flex justify-between"
+      >
+        <img
+          src="../public/img/orn-menuSide.svg"
+          class="absolute top-0 right-0 -z-10 hidden md:block"
+          alt=""
+        />
+        <img
+          src="../public/img/orn-menuSide2.svg"
+          class="absolute bottom-[130px] left-1/2 -translate-x-1/2 hidden md:block"
+          alt=""
+        />
+
+        <div class="con-left w-[300px] lg:w-[600px] 2xl:w-[700px]">
+          <ul>
+            <li>
+              <a
+                href="#"
+                class="text-[30px] md:text-[60px] 2xl:text-[100px] text-white-10"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[30px] md:text-[60px] 2xl:text-[100px] text-white-10"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[30px] md:text-[60px] 2xl:text-[100px] text-white-10"
+                >Pre-Made</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[30px] md:text-[60px] 2xl:text-[100px] text-white-10"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="con-right max-w-[300px] text-white-10 mt-12 md:mt-0 flex flex-wrap justify-between"
+        >
+          <div>
+            <p class="text-sm 2xl:text-lg">Socials</p>
+            <ul>
+              <li><a href="#" class="text-lg 2xl:text-2xl">Instagram</a></li>
+              <li><a href="#" class="text-lg 2xl:text-2xl">Facebook</a></li>
+              <li><a href="#" class="text-lg 2xl:text-2xl">Behance</a></li>
+            </ul>
+          </div>
+          <div class="2xl:mt-16 w-[200px] ml-2">
+            <p class="text-sm 2xl:text-lg">Address</p>
+            <p class="text-lg 2xl:text-2xl">
+              Jl. Candi IIIB 96A, Sukun Malang-East Java Indonesia
+            </p>
+          </div>
+          <div class="2xl:mt-16 w-[200px] mt-5">
+            <p class="text-sm 2xl:text-lg">Say Hi!</p>
+            <a href="#" class="text-lg 2xl:text-2xl">hello@kemsgraphics.com</a>
+          </div>
+          <div class="mt-8 2xl:mt-16 w-[200px]">
+            <p class="text-sm 2xl:text-lg">We’re also here!</p>
+            <ul>
+              <li><a href="#" class="text-lg 2xl:text-2xl">Fivver</a></li>
+              <li><a href="#" class="text-lg 2xl:text-2xl">Redbubble</a></li>
+            </ul>
+          </div>
+          <p class="text-xl text-slate-800 mt-5">kemsgraphics ©2022</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- toggle move service -->
+    <div
+      class="bg-black md:bg-transparent py-2 md:py-0 px-3 sticky top-0 md:top-1/2 md:-translate-y-1/2 flex justify-between w-full !z-30 mt-6"
+    >
+      <a href="#">
+        <img
+          src="../public/img/icon-slider-left.svg"
+          class="cursor-pointer bg-black p-1 rounded-md"
+          id="toggleSliderMenu"
+          alt=""
+        />
+      </a>
+
+      <a href="#">
+        <img
+          src="../public/img/icon-slider-right.svg"
+          class="md:absolute right-[10px] top-0 md:top-1/2 md:-translate-y-1/2 cursor-pointer bg-black p-1 rounded-md"
+          id="toggleSliderMenu"
+          alt=""
+        />
+      </a>
+    </div>
+
+    <!-- Main Content -->
+    <section class="relative">
+      <div class="2xl:container mx-auto px-5 lg:max-w-[1120px] pt-5 mt-0">
+        <img
+          src="../public/img/label-section.svg"
+          class="absolute left-0 -z-20 top-1/2"
+          alt=""
+        />
+        <img
+          src="../public/img/label-section.svg"
+          class="absolute left-0 -z-20 bottom-[10%]"
+          alt=""
+        />
+        <div class="flex gap-3">
+          <img src="/public/img/icon-heading-premade.svg" alt="" />
+          <h1 class="text-[60px] font-black text-white-10">Pre-Made Designs</h1>
+        </div>
+        <p class="text-white-10 text-lg mt-4">
+          Here is some of pre-made design created by kemsgraphics team in our
+          spare time between commitments we made for our clients. We’re trying
+          to express our own idea as the youth, related to the youth everyday
+          life’s aspects. Starting from ourself, our surrounding, interperate
+          it, forming into many different things such as our anxiety, our
+          burden, our opinion. We realize its not experienced by ourself, but
+          you as well, to express whats on your mind through our designs.
+        </p>
+
+        <!-- grid product -->
+        <div
+          class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-5 2xl:gap-12 bg-[#1f1f1f] py-[35px] px-[30px]"
+        >
+          <div
+            class="max-w-[460px] lg:min-h-[400px] 2xl:min-h-[460px] mx-auto sm:mx-0"
+          >
+            <div
+              class="splide"
+              aria-label="Basic Structure Example"
+              id="premade1"
+            >
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide bg-slate-50">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p
+              class="text-lg font-bold text-white-10 uppercase mt-4 text-center"
+            >
+              Nama Design
+            </p>
+            <div class="flex items-center justify-center gap-2">
+              <p class="text-red-500 text-lg line-through">$30</p>
+              <p class="text-slate-500 text-lg">$25</p>
+            </div>
+          </div>
+
+          <div
+            class="max-w-[460px] lg:min-h-[400px] 2xl:min-h-[460px] mx-auto sm:mx-0"
+          >
+            <div
+              class="splide"
+              aria-label="Basic Structure Example"
+              id="premade2"
+            >
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide bg-slate-50">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p
+              class="text-lg font-bold text-white-10 uppercase mt-4 text-center"
+            >
+              Nama Design
+            </p>
+            <div class="flex items-center justify-center gap-2">
+              <p class="text-slate-500 text-lg">$25</p>
+            </div>
+          </div>
+
+          <div
+            class="max-w-[460px] lg:min-h-[400px] 2xl:min-h-[460px] mx-auto sm:mx-0"
+          >
+            <div
+              class="splide"
+              aria-label="Basic Structure Example"
+              id="premade3"
+            >
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide bg-slate-50">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p
+              class="text-lg font-bold text-white-10 uppercase mt-4 text-center"
+            >
+              Nama Design
+            </p>
+            <div class="flex items-center justify-center gap-2">
+              <p class="text-slate-500 text-lg">$25</p>
+            </div>
+          </div>
+
+          <div
+            class="max-w-[460px] lg:min-h-[400px] 2xl:min-h-[460px] mx-auto sm:mx-0"
+          >
+            <div
+              class="splide"
+              aria-label="Basic Structure Example"
+              id="premade4"
+            >
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide bg-slate-50">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p
+              class="text-lg font-bold text-white-10 uppercase mt-4 text-center"
+            >
+              Nama Design
+            </p>
+            <div class="flex items-center justify-center gap-2">
+              <p class="text-red-500 text-lg line-through">$30</p>
+              <p class="text-slate-500 text-lg">$25</p>
+            </div>
+          </div>
+
+          <div
+            class="max-w-[460px] lg:min-h-[400px] 2xl:min-h-[460px] mx-auto sm:mx-0"
+          >
+            <div
+              class="splide"
+              aria-label="Basic Structure Example"
+              id="premade5"
+            >
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide bg-slate-50">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p
+              class="text-lg font-bold text-white-10 uppercase mt-4 text-center"
+            >
+              Nama Design
+            </p>
+            <div class="flex items-center justify-center gap-2">
+              <p class="text-slate-500 text-lg">$25</p>
+            </div>
+          </div>
+
+          <div
+            class="max-w-[460px] lg:min-h-[400px] 2xl:min-h-[460px] mx-auto sm:mx-0"
+          >
+            <div
+              class="splide"
+              aria-label="Basic Structure Example"
+              id="premade6"
+            >
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide bg-slate-50">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p
+              class="text-lg font-bold text-white-10 uppercase mt-4 text-center"
+            >
+              Nama Design
+            </p>
+            <div class="flex items-center justify-center gap-2">
+              <p class="text-red-500 text-lg line-through">$30</p>
+              <p class="text-slate-500 text-lg">$25</p>
+            </div>
+          </div>
+
+          <div
+            class="max-w-[460px] lg:min-h-[400px] 2xl:min-h-[460px] mx-auto sm:mx-0"
+          >
+            <div
+              class="splide"
+              aria-label="Basic Structure Example"
+              id="premade7"
+            >
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide bg-slate-50">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p
+              class="text-lg font-bold text-white-10 uppercase mt-4 text-center"
+            >
+              Nama Design
+            </p>
+            <div class="flex items-center justify-center gap-2">
+              <p class="text-red-500 text-lg line-through">$30</p>
+              <p class="text-slate-500 text-lg">$25</p>
+            </div>
+          </div>
+
+          <div
+            class="max-w-[460px] lg:min-h-[400px] 2xl:min-h-[460px] mx-auto sm:mx-0"
+          >
+            <div
+              class="splide"
+              aria-label="Basic Structure Example"
+              id="premade8"
+            >
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide bg-slate-50">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p
+              class="text-lg font-bold text-white-10 uppercase mt-4 text-center"
+            >
+              Nama Design
+            </p>
+            <div class="flex items-center justify-center gap-2">
+              <p class="text-slate-500 text-lg">$25</p>
+            </div>
+          </div>
+
+          <div
+            class="max-w-[460px] lg:min-h-[400px] 2xl:min-h-[460px] mx-auto sm:mx-0"
+          >
+            <div
+              class="splide"
+              aria-label="Basic Structure Example"
+              id="premade9"
+            >
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide bg-slate-50">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                  <li class="splide__slide bg-slate-300">
+                    <img
+                      src="https://picsum.photos/460"
+                      class="w-full"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p
+              class="text-lg font-bold text-white-10 uppercase mt-4 text-center"
+            >
+              Nama Design
+            </p>
+            <div class="flex items-center justify-center gap-2">
+              <p class="text-slate-500 text-lg">$25</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COntact Us -->
+    <section class="relative mt-[200px] lg:mt-[500px]">
+      <img
+        src="../public/img/label-section.svg"
+        class="absolute left-0 top-0 lg:-top-[100px]"
+        alt=""
+      />
+      <div
+        class="2xl:container mx-auto px-5 lg:max-w-[1120px] relative pt-[125px] pb-[100px] md:pb-[180px] md:flex justify-between"
+      >
+        <div class="con-left w-[300px] lg:w-[600px] 2xl:w-[700px]">
+          <div class="flex items-center">
+            <img src="../public/img/orn-contactus.svg" alt="" />
+            <p class="text-[42px] text-white-10 ml-2">Contact Us</p>
+          </div>
+          <div class="mt-[50px]">
+            <form action="#">
+              <div class="lg:flex">
+                <div class="lg:w-1/2">
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    id="small-input"
+                    class="block p-2 w-full text-white-10 bg-black border border-gray-300 sm:text-lg placeholder:text-slate-600"
+                  />
+                </div>
+                <div class="lg:w-1/2 lg:ml-3 mt-3 lg:mt-0">
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    id="small-input"
+                    class="block p-2 w-full bg-black text-white-10 border border-gray-300 sm:text-lg placeholder:text-slate-600"
+                  />
+                </div>
+              </div>
+              <div class="mt-3 lg:flex">
+                <div class="lg:w-1/2">
+                  <input
+                    type="text"
+                    placeholder="Company/Brand"
+                    id="small-input"
+                    class="block p-2 w-full bg-black text-white-10 border border-gray-300 sm:text-lg placeholder:text-slate-600"
+                  />
+                </div>
+                <div class="lg:w-1/2 lg:ml-3 mt-3 lg:mt-0">
+                  <select
+                    id="countries"
+                    class="w-full bg-black border text-slate-600 border-gray-300 sm:text-lg placeholder:text-slate-600 p-2.5"
+                  >
+                    <option selected class="text-slate-600">
+                      Choose a country
+                    </option>
+                    <option value="US">United States</option>
+                    <option value="CA">Canada</option>
+                    <option value="FR">France</option>
+                    <option value="DE">Germany</option>
+                  </select>
+                </div>
+              </div>
+              <textarea
+                id="message"
+                rows="4"
+                class="mt-3 block p-2 w-full bg-black text-white-10 border border-gray-300 sm:text-lg placeholder:text-slate-600"
+                placeholder="Your message..."
+              ></textarea>
+              <button type="submit " class="mybtn mt-12 inline-block">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="con-right max-w-[300px] text-white-10 mt-7 md:mt-0">
+          <div>
+            <p class="text-base xl:text-lg">Socials</p>
+            <ul>
+              <li><a href="#" class="text-lg xl:text-2xl">Instagram</a></li>
+              <li><a href="#" class="text-lg xl:text-2xl">Facebook</a></li>
+              <li><a href="#" class="text-lg xl:text-2xl">Behance</a></li>
+            </ul>
+          </div>
+          <div class="mt-16">
+            <p class="text-base xl:text-lg">Address</p>
+            <p class="text-lg xl:text-2xl">
+              Jl. Candi IIIB 96A, Sukun Malang-East Java Indonesia
+            </p>
+          </div>
+          <div class="mt-16">
+            <p class="text-base xl:text-lg">Say Hi!</p>
+            <a href="#" class="text-lg xl:text-2xl">hello@kemsgraphics.com</a>
+          </div>
+          <div class="mt-16">
+            <p class="text-base xl:text-lg">We’re also here!</p>
+            <ul>
+              <li><a href="#" class="text-lg xl:text-2xl">Fivver</a></li>
+              <li><a href="#" class="text-lg xl:text-2xl">Redbubble</a></li>
+            </ul>
+          </div>
+          <p class="text-xl text-slate-800 mt-10">kemsgraphics ©2022</p>
+        </div>
+      </div>
+
+      <img
+        src="../public/img/label-serviceSection.svg"
+        class="absolute bottom-0 left-0"
+        alt=""
+      />
+    </section>
+
+    <!-- flowbite js -->
+    <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+
+    <!-- SplideJS -->
+    <script src="../public/js/splide.min.js"></script>
+
+    <!-- Script -->
+    <script src="../public/js/premade.js"></script>
+  </body>
+</html>

@@ -34,8 +34,9 @@ document.addEventListener( 'DOMContentLoaded', function() {
     type    : 'loop',
     focus: "center",
     width: 1200,
-    height: 500,
+    height: 700,
     drag: 'free',
+    pagination: false,
     breakpoints: {
       1500 : {
         width: 900,
@@ -49,12 +50,30 @@ document.addEventListener( 'DOMContentLoaded', function() {
     type    : 'loop',
     focus: "center",
     width: 1200,
-    height: 500,
+    height: 700,
     drag: 'free',
+    pagination: false,
     breakpoints: {
       1500 : {
         width: 900,
         height: 500,
+      }
+    }
+  }).mount();
+
+  new Splide("#testiSlider", {
+    perPage: 3,
+    perMove: 1,
+    gap : '2rem',
+    focus: 'center',
+    pagination: false,
+    type    : 'loop',
+    breakpoints: {
+      1000 : {
+        perPage: 2,
+      },
+      500 : {
+        perPage: 1
       }
     }
   }).mount();

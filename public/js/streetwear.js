@@ -20,6 +20,11 @@ document.addEventListener( 'DOMContentLoaded', function() {
         }
       }
     }).mount();
+
+    new Splide("#premade1", {
+     perPage: 1,
+     pagination: false
+    }).mount();
     
   });
 
